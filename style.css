@@ -1,0 +1,738 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header and navigation bar */
+header {
+  background-color: #0f0f0f;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Active and hover effects */
+nav a:hover
+ {
+  background-color: rgb(226, 85, 19);
+  color: #fff;
+}
+
+/* Hero section */
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #ffa135, #ffd23f);
+  color: #fff;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1a1f2e;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+}
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body setup */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #4a8ce2;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header and Navigation Bar */
+header {
+  background-color: #1a1f2e;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header Section === */
+header {
+  background-color: #222;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: white;
+}
+
+
+
+/* === About Section === */
+.about {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background: rgb(25, 172, 209);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color:white;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+.about p {
+  font-size: 1.1em;
+  color:white;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* === Footer === */
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    padding: 25px;
+  }
+
+  .about h2 {
+    font-size: 1.7em;
+  }
+}
+ 
+
+
+
+/* === Contact Section === */
+.contact {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.contact h2 {
+  text-align: center;
+  color: #222;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.contact .container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #1499d6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* === Form Styling === */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff6b35;
+  outline: none;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* === Button === */
+button {
+  display: inline-block;
+  background-color: #ff6b35;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e55b25;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .container {
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header Section === */
+.site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* === Navigation === */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ff6b35;
+}
+
+/* === Education Section === */
+.education {
+  padding: 60px 0;
+  background-color:white;
+}
+
+.education .container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgb(15, 155, 211);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.education h2 {
+  text-align: center;
+  color: #222;
+  font-size: 2em;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  background-color:white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #ff6b35;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.education li h2 {
+  color: #ff6b35;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.education li p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education .container {
+    padding: 20px;
+  }
+}
+
+  
+
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  background-color: #1b8deb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header Section === */
+.site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* === Navigation === */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ff6b35;
+}
+
+
+
+
+/* === Projects Section === */
+.projects {
+  padding: 60px 0;
+  background-color:rgb(17, 176, 224);
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 30px;
+  position:relative;
+}
+
+.projects h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ff6b35;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+/* === Project Cards === */
+.project {
+  background-color: #fafafa;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 5px solid #ff6b35;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(50px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.project h3 {
+  color: #ff6b35;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1em;
+  color: #555;
+  text-align: justify;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects .container {
+    padding: 20px;
+  }
+
+  .project {
+    padding: 20px;
+  }
+
+  .project h3 {
+    font-size: 1.2em;
+  }
+}
+
+
+
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header Section === */
+.site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* === Navigation === */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 15px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ff6b35;
+}
+
+/* === Skills Section === */
+.skills {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.skills .container {
+  background: #0f95be;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.skills h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ff6b35;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+.skills h3 {
+  color: #ff6b35;
+  font-size: 1.4em;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-left: 5px solid #ff6b35;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills ul li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills .container {
+    padding: 25px;
+  }
+
+  .skills h2 {
+    font-size: 1.8em;
+  }
+
+  .skills h3 {
+    font-size: 1.2em;
+  }
+}
+
+
