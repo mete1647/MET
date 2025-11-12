@@ -489,6 +489,7 @@ body {
 }
 
 .container {
+  align-items: center;
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -735,10 +736,13 @@ nav a.active {
   }
 }
 .container p img{
+  align-items: center;
   text-align:center;
-  height:200PX;
+  height:200px;
+  marign:0;
   boarder-radius:100px;
 }
+
 
 
 
