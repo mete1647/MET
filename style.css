@@ -735,8 +735,10 @@ nav a.active {
   }
 }
 .container p img{
+  text-align:center;
   height:200PX;
   boarder-radius:100px;
 }
+
 
 
